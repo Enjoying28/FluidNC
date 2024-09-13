@@ -276,7 +276,7 @@ private:
     float centerX;
     float centerY;
 
-    float _beltEndExtension = 30;  //Based on the CAD model these should add to 153.4
+    float _beltEndExtension = 630;  //Based on the CAD model these should add to 153.4
     float _armLength        = 123.4;
 
     //Used to keep track of how often the PID controller is updated
