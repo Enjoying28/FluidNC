@@ -76,7 +76,7 @@ axes:
   x:
     max_rate_mm_per_min: 2000
     acceleration_mm_per_sec2: 25
-    max_travel_mm: 2438.4
+    max_travel_mm: 9753.6
     homing:
       cycle: -1
 
@@ -86,7 +86,7 @@ axes:
   y:
     max_rate_mm_per_min: 2000
     acceleration_mm_per_sec2: 25
-    max_travel_mm: 1219.2
+    max_travel_mm: 2438.4
     homing:
       cycle: -1
 
@@ -94,7 +94,7 @@ axes:
     steps_per_mm: 100
     max_rate_mm_per_min: 400
     acceleration_mm_per_sec2: 10
-    max_travel_mm: 100
+    max_travel_mm: 70
 
     homing:
       cycle: -1
