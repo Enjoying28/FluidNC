@@ -5,11 +5,11 @@ name: Maslow S3 Board
 Maslow_vertical: false
 
 # Define the distance from the anchor points to the corners of the calibration grid in mm
-maslow_calibration_grid_width_mm_X: 2000
-maslow_calibration_grid_height_mm_Y: 1000
+maslow_calibration_grid_width_mm_X: 8000
+maslow_calibration_grid_height_mm_Y: 2000
 
 # Defines the number of points in the calibration grid. Options are 3,5,7,9
-maslow_calibration_grid_size: 9
+maslow_calibration_grid_size: 36
 
 #####################################################################
 # Define the frame
@@ -19,19 +19,19 @@ maslow_calibration_grid_size: 9
 # All values in millimeters!
 
 # Top left corner of frame. nominally  0, height
-Maslow_tlX: -27.6
-Maslow_tlY: 2064.9
+Maslow_tlX: 0
+Maslow_tlY: 2438.4
 
 # Top right corner of frame. nominally width, height.
-Maslow_trX: 2924.3
-Maslow_trY: 2066.5
+Maslow_trX: 9753.6
+Maslow_trY: 2438.4
 
 # Bottom left. Nominally 0,0
 Maslow_blX: 0
 Maslow_blY: 0
 
 # Bottom right. Nominally width,0
-Maslow_brX: 2953.2
+Maslow_brX: 9753.6
 Maslow_brY: 0
 
 # Z axis values 
@@ -94,8 +94,7 @@ axes:
     steps_per_mm: 100
     max_rate_mm_per_min: 400
     acceleration_mm_per_sec2: 10
-    max_travel_mm: 70
-
+    max_travel_mm: 100
     homing:
       cycle: -1
 
